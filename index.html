@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>TaxesToGo - File Taxes, Pack Bags</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1754cf",
+                        "primary-dark": "#0e3a99",
+                        "accent-gold": "#F59E0B",
+                        "accent-teal": "#14B8A6",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#111621",
+                        "surface": "#ffffff",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 1,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+        }
+        .hero-pattern {
+            background-color: #ffffff;
+            background-image: radial-gradient(#1754cf 0.5px, transparent 0.5px), radial-gradient(#1754cf 0.5px, #ffffff 0.5px);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+            opacity: 0.05;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-100 antialiased selection:bg-primary/20 selection:text-primary">
+<!-- Navbar -->
+<nav class="fixed top-0 z-50 w-full border-b border-slate-200 bg-surface/90 backdrop-blur-md dark:border-slate-800 dark:bg-slate-900/90">
+<div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+<div class="flex items-center gap-3">
+<div class="flex size-8 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined !text-[20px]">flight_takeoff</span>
+</div>
+<h2 class="font-display text-xl font-bold tracking-tight text-slate-900 dark:text-white">TaxesToGo</h2>
+</div>
+<a class="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-primary px-5 py-2.5 font-display text-sm font-semibold text-white shadow-md transition-all duration-200 hover:bg-primary-dark hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" href="https://taxestogo.com/App/Download/93112">
+<span class="mr-2">Download App</span>
+<span class="material-symbols-outlined !text-[18px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="relative flex min-h-screen w-full items-center justify-center overflow-hidden pt-16">
+<div class="absolute inset-0 hero-pattern pointer-events-none"></div>
+<div class="absolute right-0 top-0 -z-10 h-1/2 w-1/2 rounded-full bg-accent-teal/10 blur-[120px]"></div>
+<div class="absolute left-0 bottom-0 -z-10 h-1/2 w-1/2 rounded-full bg-accent-gold/10 blur-[120px]"></div>
+<div class="mx-auto flex w-full max-w-7xl flex-col gap-12 px-4 py-12 sm:px-6 lg:flex-row lg:items-center lg:gap-20 lg:px-8 lg:py-20">
+<!-- Hero Text -->
+<div class="flex flex-1 flex-col items-start gap-8 text-left animate-fade-in-up">
+<div class="inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-xs font-bold uppercase tracking-wide text-primary ring-1 ring-inset ring-primary/20">
+<span class="material-symbols-outlined !text-[16px]">celebration</span>
+                    Limited Time Offer
+                </div>
+<h1 class="font-display text-4xl font-black leading-tight tracking-tight text-slate-900 dark:text-white sm:text-5xl lg:text-6xl">
+                    File Your Taxes,<br/>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent-teal">Pack Your Bags.</span>
+</h1>
+<p class="max-w-xl text-lg font-normal leading-relaxed text-slate-600 dark:text-slate-300">
+                    Experience the perfect blend of professional service and paradise. Get a <span class="font-bold text-primary">4-Day / 3-Night Hotel Voucher</span> just for securely filing your taxes with our expert team.
+                </p>
+<div class="flex flex-col w-full gap-4 sm:flex-row sm:w-auto">
+<a class="inline-flex h-14 items-center justify-center gap-2 rounded-xl bg-primary px-8 text-base font-bold text-white shadow-lg shadow-primary/30 transition-all hover:bg-primary-dark hover:scale-[1.02] active:scale-[0.98]" href="https://taxestogo.com/App/Download/93112">
+<span class="material-symbols-outlined">download</span>
+                        Download App &amp; Claim Voucher
+                    </a>
+</div>
+<p class="text-xs text-slate-500 font-medium flex items-center gap-1">
+<span class="material-symbols-outlined !text-[14px] text-green-600">verified_user</span> 
+                    Secure &amp; Encrypted Submission
+                </p>
+</div>
+<!-- Hero Image/Visual -->
+<div class="relative flex flex-1 items-center justify-center lg:justify-end">
+<div class="relative aspect-square w-full max-w-[500px] overflow-hidden rounded-2xl shadow-2xl ring-1 ring-slate-900/10">
+<!-- Base Image: Corporate/Tax -->
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Close up of calculator and tax documents on a desk" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBZlq6XQs7UngJgJTtdBSCJcwl36v_EQoCgKe0pxjHOg7i3AQHnGpMFt-qJoB1cMnTDH-ltmNVwlRB9IDvfEXpUEFCM6xsUKgW-1qZ4cn4F5_bnO3_1-nGpcaln-bcuxs1RF4GQl3jpPp3a64uwZDF6Aarm2909VslWvBbdM24IdD8q8uNOJyrYZIDow3Kz02LU8H_gzHMCoSDFTL6A0xSCj8ReuJJ81i8vWyg06LkLKFEE9DQ2j2X12h2ztBDJv-8qZJ0l9uLU8RA");'>
+</div>
+<!-- Overlay Image: Vacation (Diagonal Clip) -->
+<div class="absolute inset-0 bg-cover bg-center transition-opacity duration-1000" data-alt="Sunny tropical beach with clear blue water and palm trees" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC9An6Fr5DBCfsIoRsQQyfkm8j0aHj84niFO-q5yXVmrT8zSgTUTFjz2HNczE4J65CW-wQyzfRc-QczwR49yV1lq_OrI05B9smNCXGm2HtJw6sLS-ercZpYlJkWdpHCENg7YhmHEb56ELIiRMfHB4dEaGK5P1ci8Y3AaPIqb50QIMZiugSI-zQBHEBX8yb3Pa0zGDgLk2ks50KJmChn0zh1MrjmwR7D9ATYJm51CDnFBrBl2-_Iad92skDNL2rTS03FHQ-gDybSOY0"); clip-path: polygon(60% 0, 100% 0, 100% 100%, 0% 100%);'>
+</div>
+<!-- Floating Badge -->
+<div class="absolute bottom-6 left-6 flex items-center gap-3 rounded-xl bg-white/95 p-4 shadow-xl backdrop-blur-sm dark:bg-slate-800/95">
+<div class="flex size-10 items-center justify-center rounded-full bg-accent-gold text-white">
+<span class="material-symbols-outlined">hotel</span>
+</div>
+<div>
+<p class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Bonus Reward</p>
+<p class="text-sm font-bold text-slate-900 dark:text-white">3 Nights Included</p>
+</div>
+</div>
+</div>
+<!-- Decorative Elements -->
+<div class="absolute -right-8 -top-8 -z-10 size-32 rounded-full border-8 border-accent-gold/20"></div>
+<div class="absolute -left-4 -bottom-4 -z-10 size-20 rounded-full bg-primary/10"></div>
+</div>
+</div>
+</section>
+<!-- VIP Referral Section (Gold Background) -->
+<section class="bg-gradient-to-r from-amber-50 to-amber-100 py-16 dark:from-slate-800 dark:to-slate-900 border-y border-amber-200 dark:border-slate-700">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col items-center justify-between gap-10 rounded-2xl border border-amber-200 bg-white p-8 shadow-xl dark:border-slate-700 dark:bg-slate-800 lg:flex-row lg:p-12">
+<div class="flex-1 space-y-4 text-center lg:text-left">
+<div class="inline-flex items-center gap-2 rounded-full bg-amber-100 px-3 py-1 text-sm font-bold text-amber-800 dark:bg-amber-900/30 dark:text-amber-300">
+<span class="material-symbols-outlined !text-[18px]">workspace_premium</span>
+                        VIP Program
+                    </div>
+<h2 class="font-display text-3xl font-black text-slate-900 dark:text-white lg:text-4xl">
+                        Want More? Get <span class="text-amber-600 dark:text-amber-400">$500 Cash</span> + Fees Covered.
+                    </h2>
+<p class="text-lg text-slate-600 dark:text-slate-300">
+                        Refer 15 funded clients and we will pay your hotel fees, cover your taxes, <strong class="text-slate-900 dark:text-white">AND give you $500 cash.</strong>
+</p>
+</div>
+<div class="relative flex shrink-0 items-center justify-center">
+<div class="relative z-10 flex size-32 items-center justify-center rounded-full bg-gradient-to-br from-amber-400 to-orange-500 text-white shadow-xl shadow-amber-500/30">
+<span class="material-symbols-outlined !text-[64px]">groups</span>
+</div>
+<div class="absolute -right-4 -top-4 z-20 flex size-16 rotate-12 items-center justify-center rounded-full bg-green-500 text-white shadow-lg ring-4 ring-white dark:ring-slate-800">
+<span class="material-symbols-outlined !text-[32px]">attach_money</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- How It Works Section -->
+<section class="py-20 bg-background-light dark:bg-background-dark">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="font-display text-3xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-4xl">Your Ticket to Paradise</h2>
+<p class="mt-4 text-lg text-slate-600 dark:text-slate-400">Three simple steps to file your taxes and pack your bags.</p>
+</div>
+<div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+<!-- Step 1 -->
+<div class="group relative flex flex-col items-center rounded-2xl bg-white p-8 text-center shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl dark:bg-slate-800 dark:border dark:border-slate-700">
+<div class="mb-6 flex size-16 items-center justify-center rounded-2xl bg-blue-50 text-primary group-hover:bg-primary group-hover:text-white transition-colors dark:bg-slate-700 dark:text-blue-400 dark:group-hover:bg-primary dark:group-hover:text-white">
+<span class="material-symbols-outlined !text-[32px]">smartphone</span>
+</div>
+<h3 class="mb-3 font-display text-xl font-bold text-slate-900 dark:text-white">1. Download App</h3>
+<p class="text-slate-600 dark:text-slate-400">Click the link below to get the TaxesToGo App on your mobile device.</p>
+</div>
+<!-- Step 2 -->
+<div class="group relative flex flex-col items-center rounded-2xl bg-white p-8 text-center shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl dark:bg-slate-800 dark:border dark:border-slate-700">
+<div class="mb-6 flex size-16 items-center justify-center rounded-2xl bg-blue-50 text-primary group-hover:bg-primary group-hover:text-white transition-colors dark:bg-slate-700 dark:text-blue-400 dark:group-hover:bg-primary dark:group-hover:text-white">
+<span class="material-symbols-outlined !text-[32px]">cloud_upload</span>
+</div>
+<h3 class="mb-3 font-display text-xl font-bold text-slate-900 dark:text-white">2. Submit Docs</h3>
+<p class="text-slate-600 dark:text-slate-400">Securely upload your W2s and personal info through our encrypted portal.</p>
+</div>
+<!-- Step 3 -->
+<div class="group relative flex flex-col items-center rounded-2xl bg-white p-8 text-center shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl dark:bg-slate-800 dark:border dark:border-slate-700">
+<div class="mb-6 flex size-16 items-center justify-center rounded-2xl bg-blue-50 text-primary group-hover:bg-primary group-hover:text-white transition-colors dark:bg-slate-700 dark:text-blue-400 dark:group-hover:bg-primary dark:group-hover:text-white">
+<span class="material-symbols-outlined !text-[32px]">airplane_ticket</span>
+</div>
+<h3 class="mb-3 font-display text-xl font-bold text-slate-900 dark:text-white">3. Get Your Voucher</h3>
+<p class="text-slate-600 dark:text-slate-400">Once filed, you'll receive your 4-Day/3-Night Hotel Voucher instantly.</p>
+</div>
+</div>
+<div class="mt-12 text-center">
+<a class="inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 px-6 py-3 font-semibold text-white transition-colors hover:bg-slate-800 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200" href="https://taxestogo.com/App/Download/93112">
+                    Start Filing Now
+                    <span class="material-symbols-outlined !text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- About Profile Section -->
+<section class="py-20 relative overflow-hidden">
+<div class="absolute inset-0 bg-primary/5 -skew-y-3 origin-top-left -z-10 h-full w-full"></div>
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col-reverse gap-12 lg:flex-row lg:items-center lg:gap-24">
+<!-- Profile Image Side -->
+<div class="flex-1">
+<div class="relative mx-auto max-w-md lg:mx-0">
+<div class="relative z-10 aspect-[4/5] overflow-hidden rounded-2xl shadow-2xl">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Portrait of John Snowton, a professional man in a suit" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD6axpsjyatzDImSxL9zUfJCH5rpYsnlYQ1ZVB9pWNxTd0cbwi_Mlj-qCcJ3lE5iQdw4ph10FY--W7ZdW_IK3WGMoD2q7Jt6FyPf5Auld00z2oAwW4MP04F9jPEKtnvmtLTz11Ww4dvogaMpVmmybqYvY3sXYk2q60hI0dqXM7m-CGRvvb-maKgRop9lQWWh5vECm9m0tb_iWFUmz4uPdaBp38RF5LoPJfkI6RPcHZGsDgs2ou9HGeeFgRs-zh5SSIJ9FSI2XGVAu4");'>
+</div>
+<!-- Name Overlay -->
+<div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/80 to-transparent p-6 text-white">
+<h3 class="text-2xl font-bold">John Snowton</h3>
+<p class="opacity-90">Tax Professional</p>
+</div>
+</div>
+<div class="absolute -bottom-6 -right-6 -z-0 size-48 rounded-full bg-primary/20 blur-2xl"></div>
+<div class="absolute -top-6 -left-6 -z-0 size-48 rounded-full bg-accent-teal/20 blur-2xl"></div>
+</div>
+</div>
+<!-- Profile Content Side -->
+<div class="flex-1 space-y-8">
+<div>
+<h2 class="font-display text-3xl font-bold text-slate-900 dark:text-white lg:text-4xl">Meet Your Expert</h2>
+<div class="mt-2 h-1.5 w-20 rounded-full bg-primary"></div>
+</div>
+<div class="grid grid-cols-3 gap-4 border-y border-slate-200 py-6 dark:border-slate-700">
+<div class="text-center lg:text-left">
+<p class="text-3xl font-black text-primary">26</p>
+<p class="text-xs font-semibold uppercase text-slate-500">Years Exp.</p>
+</div>
+<div class="text-center lg:text-left">
+<p class="text-3xl font-black text-primary">11</p>
+<p class="text-xs font-semibold uppercase text-slate-500">Years in Tax</p>
+</div>
+<div class="text-center lg:text-left">
+<p class="text-3xl font-black text-primary">95%</p>
+<p class="text-xs font-semibold uppercase text-slate-500">Retention</p>
+</div>
+</div>
+<div class="space-y-4 text-lg leading-relaxed text-slate-600 dark:text-slate-300">
+<p>
+                            John Snowton has owned several successful businesses with a passion to serve and offer fair pricing. He doesn't just want your taxes; he wants a relationship.
+                        </p>
+<blockquote class="border-l-4 border-accent-gold bg-amber-50 p-4 font-medium italic text-slate-800 dark:bg-slate-800 dark:text-slate-200">
+                            "I want to earn your trust and business."
+                        </blockquote>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-primary pt-16 pb-8 text-white dark:bg-slate-900">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col items-center justify-between gap-8 text-center lg:flex-row lg:text-left">
+<!-- Brand & CTA -->
+<div class="space-y-4">
+<h2 class="text-2xl font-bold">TaxesToGo</h2>
+<p class="max-w-sm text-blue-100 opacity-90">
+                        Professional tax filing services that reward you with the vacation you deserve.
+                    </p>
+<a class="inline-flex items-center justify-center rounded-lg bg-white px-6 py-2.5 font-bold text-primary shadow-lg transition-transform hover:scale-105" href="https://taxestogo.com/App/Download/93112">
+                        Start Filing Now
+                    </a>
+</div>
+<!-- Connect -->
+<div class="flex flex-col items-center gap-4 lg:items-end">
+<p class="font-semibold text-blue-100">Join our community</p>
+<a class="group flex items-center gap-3 rounded-full bg-white/10 px-4 py-2 transition-colors hover:bg-white/20" href="https://www.facebook.com/profile.php?id=100057354523421" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined !text-[24px]">thumb_up</span>
+<span>Connect on Facebook</span>
+</a>
+</div>
+</div>
+<div class="mt-16 border-t border-white/20 pt-8 text-center text-sm text-blue-200">
+<div class="flex flex-col justify-center gap-4 sm:flex-row">
+<span>© 2024 TaxesToGo. All rights reserved.</span>
+<span class="hidden sm:inline">|</span>
+<a class="hover:text-white" href="#">Privacy Policy</a>
+<span class="hidden sm:inline">|</span>
+<a class="hover:text-white" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
